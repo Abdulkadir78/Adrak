@@ -1,0 +1,59 @@
+*::selection {
+  color: #ffffff;
+  background: #c5997b;
+}
+
+.MuiTextField-root > label {
+  text-transform: capitalize;
+}
+
+.MuiTextField-root > .MuiFormLabel-root.Mui-focused {
+  text-transform: capitalize;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.no-click-overlay {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.no-click-overlay:focus {
+  outline: none !important;
+}
+
+.center-absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.no-data-image {
+  width: 70%;
+  display: "block";
+}
+
+@media (max-width: 600px) {
+  .no-data-image {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .collabSectionImg {
+    width: 90%;
+  }
+}

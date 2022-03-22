@@ -1,6 +1,6 @@
 # Adrak
 
-An web based project management system built using React.js, Redux, Express.js and MongoDB.
+A web based project management system built using React.js, Redux, Express.js and MongoDB.
 <br />
 <br />
 

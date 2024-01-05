@@ -76,7 +76,7 @@ function LoginForm() {
           errors={errors}
           rules={loginSchema.email}
           disabled={loading}
-          autoFocus
+          // autoFocus
         />
 
         <Input

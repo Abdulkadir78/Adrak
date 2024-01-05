@@ -3,6 +3,9 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 
+import Landing from "./screens/Landing/Landing";
+import Signup from "./screens/Signup/Signup";
+import Login from "./screens/Login/Login";
 import ErrorBoundary from "./components/Miscellanous/ErrorBoundary";
 import PrivateRoute from "./components/Miscellanous/PrivateRoute";
 import PublicRoute from "./components/Miscellanous/PublicRoute";
@@ -14,10 +17,7 @@ import useAuth from "./hooks/useAuth";
 const ProjectById = lazy(() => import("./screens/Project-by-id/ProjectById"));
 const Projects = lazy(() => import("./components/Projects/Projects"));
 const Dashboard = lazy(() => import("./screens/Dashboard/Dashboard"));
-const Landing = lazy(() => import("./screens/Landing/Landing"));
 const NotFound = lazy(() => import("./screens/404/NotFound"));
-const Signup = lazy(() => import("./screens/Signup/Signup"));
-const Login = lazy(() => import("./screens/Login/Login"));
 const Notes = lazy(() => import("./screens/Notes/Notes"));
 
 function App() {

@@ -86,7 +86,7 @@ function SignupForm() {
           errors={errors}
           rules={signupSchema.username}
           disabled={loading}
-          autoFocus
+          // autoFocus
         />
 
         <Input
